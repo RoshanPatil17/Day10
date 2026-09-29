@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.faq-box {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.faq {
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.faq button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    background: white;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.faq button:hover {
+    background: #eeeeee;
+}
+
+.faq p {
+    display: none;
+    margin: 0;
+    padding: 0 16px 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.faq.active p {
+    display: block;
+}
